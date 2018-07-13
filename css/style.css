@@ -1,0 +1,291 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+.container{
+    display: flex;
+    height: auto;
+}
+.main{
+    flex: 1 0 auto;
+}
+#footer{
+    background-color: #2e3242;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 0;
+    flex: 0 0 auto;
+}
+#sidebar{
+    background: #1f222d;
+    flex: 2;
+}
+#content{
+    background: #edf0f2;
+    flex: 7;
+    justify-content: space-between;
+}
+.row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
+.js_sp_bt{
+    justify-content: space-between;
+}
+.col_white{
+    color: #fff;
+}
+.col_black{
+    color: black;
+}
+.line{
+    border-bottom: 1px solid #353a4d;
+}
+
+/*####################### Sidebar ####################################################*/
+#sidebar_first{
+    background-color: #304ffe;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 30px;
+    justify-content: space-around;
+}
+#sidebar_first span{
+    font-size: 22px;
+    font-weight: 500;
+}
+#sidebar_first span i{
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    line-height: 30px;
+    text-align: center;
+}
+#sidebar_first span i:hover{
+    background-color: #243cbf;
+    cursor: pointer;
+}
+.circle{
+    width: 60px;
+    border-radius: 50%;
+}
+#sidebar_second{
+    padding: 30px 35px;
+    height: 50px;
+}
+#second_texts{
+    padding: 0 30px;
+}
+#profile{
+    color: #a5a7ab;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.menu{
+    height: 55px;
+    line-height: 55px;
+    padding: 0 35px;
+    font-size: 14px;
+    color: #abadb3;
+    justify-content: space-between;
+}
+.menu:hover{
+    background-color: #2e3242;
+
+}
+.menu i{
+    font-size: 18px;
+    line-height: 55px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.fx_e{
+    align-self: flex-end;
+}
+.mess_gr{
+    background-color: #8aaa28;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+.mess_rd{
+    background-color: #ff5252;
+    border-radius: 50px;
+    padding: 3px 5px;
+}
+/*####################### End Sidebar ################################################*/
+
+/*####################### Content #####################################################*/
+#content_first{
+    height: 40px;
+    background-color: #fff;
+    padding: 15px 30px;
+    justify-content: space-between;
+}
+.col_grey{
+    color: #2e3242;
+}
+.icon{
+    font-size: 30px;
+    height: 40px;
+    width: 30px;
+}
+.search{
+    width: 500px;
+    font-size: 22px;
+    height: 38px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 50px;
+    line-height: 38px;
+    color: #a8aaad;
+    padding: 0 20px;
+}
+.search_input{
+    border: none;
+    width: 450px;
+    background: #F6F6f6;
+    color: #a8aaad;
+    margin: 0 10px;
+    font-size: 16px;
+}
+.search_input:hover{
+    outline: none;
+}
+.search_input:active{
+    outline: none;
+}
+.search_input:focus{
+    outline: none;
+}
+.mini{
+    height: 40px;
+    width: auto;
+}
+.info{
+    height: 40px;
+    width: 240px;
+    line-height: 40px;
+    padding: 0 40px;
+}
+.alert{
+    font-size: 14px;
+}
+
+#content_second{
+    background-color: white;
+    margin: 30px 30px;
+    height: 140px;
+    border-radius: 3px;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+.item{
+    flex: 1;
+    margin: 0 50px;
+    text-align: center;
+}
+.eye{
+    color: #8ad598;
+    font-size: 70px;
+}
+.pencil{
+    color: #ecca2f;
+    font-size: 70px;
+}
+.flask{
+    color: #cd5a5a;
+    font-size: 70px;
+}
+.handshake{
+    color: #729df7;
+    font-size: 70px;
+}
+.count{
+    padding: 10px 0;
+}
+.text{
+    font-weight: 400;
+}
+#content_third{
+    margin: 30px 30px;
+    height: 220px;
+    justify-content: space-between;
+}
+.box_green{
+    background-color: #6fbc8c;
+    flex: 1;
+    border-radius: 3px;
+    margin-right: 15px;
+    padding: 30px 30px;
+}
+.box_blue{
+    background-color: #729df7;
+    flex: 1;
+    border-radius: 3px;
+    margin-left: 15px;
+    padding: 30px 30px;
+}
+.box_green span b{
+    font-size: 20px;
+}
+.progress{
+    height: 5px;
+    width: 100%;
+    padding: 5px 0;
+}
+.white{
+    background-color: white;
+    width: 60%;
+}
+.black{
+    background-color: black;
+    width: 40%;
+}
+#content_fourth{
+    background-color: white;
+    margin: 30px 30px;
+    height: 350px;
+    border-radius: 3px;
+    padding: 15px 15px;
+    justify-content: space-between;
+}
+.title{
+    margin: 0;
+    padding: 15px 15px;
+}
+.widgets{
+    display: flex;
+    flex-wrap: wrap;
+}
+.widget{
+    height: 120px;
+    width: 289px;
+    background-color: aqua;
+    border-radius: 3px;
+    margin: 15px 15px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.bc1{background-image: url("../images/unnamed.jpg");}
+.bc2{background-image: url("../images/kak-vliyaet-eda-artroz-sustavov.jpg");}
+.bc3{background-image: url("../images/Rebjonok-uchitsja-plavat.jpg");}
+.bc4{background-image: url("../images/sea-in-fish-wallpapers-1024x576.jpg");}
+.bc5{background-image: url("../images/vvodim-ribu-v-ratsion-malisha-1_1.jpg");}
+.bc6{background-image: url("../images/i-768x512.jpg");}
+
+.widget_text{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.end{
+    display: flex;
+    align-items: flex-end;
+}
+.end a{
+    color: #abadb3;
+}
+/*######################## End Content ##################################################*/
